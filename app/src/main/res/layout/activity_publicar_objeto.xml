@@ -12,7 +12,7 @@
         android:id="@+id/titulo"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="48dp"
+        android:layout_marginTop="104dp"
         android:text="Publicar Producto"
         android:textSize="24sp"
         android:textStyle="bold"
@@ -22,19 +22,15 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
-
     <EditText
         android:id="@+id/eldiabloproducto"
-        android:layout_width="0dp"
+        android:layout_width="362dp"
         android:layout_height="48dp"
-        android:layout_margin="24dp"
-        android:layout_marginTop="92dp"
         android:hint="Name of Product"
-        android:inputType="text"
         android:textSize="18sp"
+        android:layout_marginTop="50dp"
 
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.666"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@id/titulo" />
 
@@ -72,12 +68,12 @@
     </RadioGroup>
 
     <Button
-        android:id="@+id/button2"
+        android:id="@+id/botonpublicar"
         android:layout_width="wrap_content"
         android:layout_height="48dp"
         android:layout_marginTop="160dp"
         android:text="Publicar"
-        android:textsize="18sp"
+        android:textSize="18sp"
 
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
