@@ -28,8 +28,8 @@ public class MenuPrincipalActivity extends AppCompatActivity {
             return insets;
         });
 
-        Button button = findViewById(R.id.button);
-        button.setOnClickListener(v -> {
+        Button botonformulario = findViewById(R.id.botonformulario);
+        botonformulario.setOnClickListener(v -> {
             Intent intent = new Intent(MenuPrincipalActivity.this, PublicarObjetoActivity.class);
             startActivity(intent);
         });

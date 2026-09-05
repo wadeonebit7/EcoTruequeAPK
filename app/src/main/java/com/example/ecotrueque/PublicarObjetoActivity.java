@@ -1,6 +1,7 @@
 package com.example.ecotrueque;
 
 import android.os.Bundle;
+import android.widget.RadioGroup;
 
 import androidx.activity.EdgeToEdge;
 import androidx.appcompat.app.AppCompatActivity;
